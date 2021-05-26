@@ -31,9 +31,9 @@ tenantGroupName ="Siddharth1"
 tenantName = "Siddharth2"
 hostPoolName = "Siddharth3"
 
-client_id = "f1da8793-4dfc-4efd-a26d-c303e9302747"
-authorityurl = "https://login.microsoftonline.com/xoft2hotmail.onmicrosoft.com"
-secret="vz-rCHsiwoH~ChZE6u.2Bf~hGe15.n8uQH"
+client_id = ""
+authorityurl = ""
+secret=""
 scope= ["https://graph.microsoft.com/.default"]
 
 putpoint1 = "https://rdbroker.wvd.microsoft.com/RdsManagement/V1/TenantGroups/{tenantGroupName}/Tenants/{tenantName}/HostPools/{hostPoolName}/Rds.Authorization/roleAssignments/{roleName}/Groups/azureADObjectId/{azureADObjectId}?aadTenantId={aadTenantId}"
