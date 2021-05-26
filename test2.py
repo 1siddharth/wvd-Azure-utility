@@ -27,9 +27,9 @@ import logging
 
 import requests
 import msal
-client_id = "f1da8793-4dfc-4efd-a26d-c303e9302747"
-authorityurl = "https://login.microsoftonline.com/xoft2hotmail.onmicrosoft.com"
-secret="vz-rCHsiwoH~ChZE6u.2Bf~hGe15.n8uQH"
+client_id = ""
+authorityurl = ""
+secret=""
 scope= ["https://graph.microsoft.com/.default"]
 endpoint = "https://graph.microsoft.com/v1.0/users"
 # Optional logging
@@ -59,10 +59,10 @@ body ={
             "mailNickname":"hello-world",
             "passwordProfile":{
     "forceChangePasswordNextSignIn": False,
-    "password": "Colors123321#",
+    "password": "",
   }
             ,
-            "userPrincipalName":"xoft23@xoft2hotmail.onmicrosoft.com",
+            "userPrincipalName":".onmicrosoft.com", # complete name
         }
 
 if not result:
